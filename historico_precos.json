@@ -56,5 +56,26 @@
     "companhia_aerea": "Qatar Airways",
     "fonte": "SerpApi (Google Flights - preco real)",
     "observacao": "Nova execucao no mesmo dia via API SerpApi (Google Flights, type=3 multi-city) para o roteiro GRU-SGN 03/01/2027 e BKK-GRU 23/01/2027, moeda BRL. Preco identico ao registro SerpApi anterior de hoje (R$ 12061,00, sem variacao) - mesma opcao mais barata em best_flights[] (5 opcoes: 12061, 12061, 12361, 12563, 15167; other_flights[] com 6 opcoes entre 14105 e 33421), operada pela Qatar Airways (GRU-DOH-SGN / BKK-DOH-GRU). Ha opcoes envolvendo Emirates entre as mais caras (ex.: R$ 16270 com Gol GRU-GIG + Emirates GIG-DXB-SGN), mas nenhuma corresponde exatamente aos voos EK262/EK364/EK371/EK261 do itinerario especifico monitorado - a API, conforme especificado na tarefa, nao filtra por companhia aerea nem por numero de voo, apenas pela rota e datas exatas."
+  },
+  {
+    "data": "2026-09-20",
+    "opcao1": {
+      "preco_brl": 12061.00,
+      "companhia_aerea": "Qatar Airways",
+      "voos": [
+        {"companhia": "Qatar Airways", "numero_voo": "QR 774", "origem": "GRU", "partida": "2027-01-03 02:10", "destino": "DOH", "chegada": "2027-01-03 21:40"},
+        {"companhia": "Qatar Airways", "numero_voo": "QR 970", "origem": "DOH", "partida": "2027-01-04 02:00", "destino": "SGN", "chegada": "2027-01-04 13:05"}
+      ]
+    },
+    "opcao2": {
+      "preco_brl": 12061.00,
+      "companhia_aerea": "Qatar Airways",
+      "voos": [
+        {"companhia": "Qatar Airways", "numero_voo": "QR 780", "origem": "GRU", "partida": "2027-01-03 20:25", "destino": "DOH", "chegada": "2027-01-04 15:55"},
+        {"companhia": "Qatar Airways", "numero_voo": "QR 970", "origem": "DOH", "partida": "2027-01-05 02:00", "destino": "SGN", "chegada": "2027-01-05 13:05"}
+      ]
+    },
+    "fonte": "SerpApi (Google Flights - preco real)",
+    "observacao": "Primeiro registro no novo formato com opcao1/opcao2 (nenhum registro anterior com este schema encontrado no historico para comparacao de variacao). Preco obtido combinando best_flights[] (5 opcoes: 12061, 12061, 12361, 12563, 15167) + other_flights[] (6 opcoes entre 14105 e 33421) e ordenando por preco - as duas mais baratas empatam em R$ 12061,00, ambas operadas pela Qatar Airways (nao Emirates - a API nao filtra por companhia aerea/numero de voo, apenas pela rota e datas exatas do itinerario). Nota tecnica importante: cada opcao retornada pela API (campo flights[]) contem apenas os segmentos GRU-DOH-SGN (2 trechos, via Doha) referentes ao primeiro trecho da viagem multi-cidade, junto com um campo departure_token que serviria para consultar o trecho de volta BKK-DOH-GRU em uma chamada adicional; essa chamada adicional nao foi feita nesta execucao (nao especificada no passo a passo da tarefa), entao o preco de R$ 12061,00 corresponde ao preco retornado pela API para a combinacao encontrada e pode nao refletir o custo total ida+volta do roteiro completo. Mesmo criterio ja usado nos dois registros SerpApi anteriores (schema antigo, sem opcao1/opcao2)."
   }
 ]

@@ -49,5 +49,12 @@
     "preco_brl": 12061.00,
     "fonte": "SerpApi (Google Flights - preco real)",
     "observacao": "Primeiro preco real obtido com sucesso via API SerpApi (Google Flights, type=3 multi-city) para o roteiro GRU-SGN 03/01/2027 e BKK-GRU 23/01/2027, moeda BRL. Menor preco encontrado em best_flights[] (5 opcoes: 12061, 12061, 12361, 12563, 15167; other_flights[] com 6 opcoes entre 14105 e 33421). O voo mais barato retornado pelo Google Flights para este roteiro exato e operado pela Qatar Airways (GRU-DOH-SGN / BKK-DOH-GRU), nao pela Emirates - a chamada da API, conforme especificado, nao filtra por companhia aerea, apenas pela rota e datas exatas do itinerario monitorado. Nao havia registro numerico real anterior da API para comparar (a unica tentativa anterior da API falhou por bloqueio de rede); este e o primeiro ponto de referencia real da serie."
+  },
+  {
+    "data": "2026-09-20",
+    "preco_brl": 12061.00,
+    "companhia_aerea": "Qatar Airways",
+    "fonte": "SerpApi (Google Flights - preco real)",
+    "observacao": "Nova execucao no mesmo dia via API SerpApi (Google Flights, type=3 multi-city) para o roteiro GRU-SGN 03/01/2027 e BKK-GRU 23/01/2027, moeda BRL. Preco identico ao registro SerpApi anterior de hoje (R$ 12061,00, sem variacao) - mesma opcao mais barata em best_flights[] (5 opcoes: 12061, 12061, 12361, 12563, 15167; other_flights[] com 6 opcoes entre 14105 e 33421), operada pela Qatar Airways (GRU-DOH-SGN / BKK-DOH-GRU). Ha opcoes envolvendo Emirates entre as mais caras (ex.: R$ 16270 com Gol GRU-GIG + Emirates GIG-DXB-SGN), mas nenhuma corresponde exatamente aos voos EK262/EK364/EK371/EK261 do itinerario especifico monitorado - a API, conforme especificado na tarefa, nao filtra por companhia aerea nem por numero de voo, apenas pela rota e datas exatas."
   }
 ]

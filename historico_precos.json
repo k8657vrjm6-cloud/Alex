@@ -10,5 +10,11 @@
     "preco_brl": 4833.00,
     "fonte": "Kayak (via snippet de busca)",
     "observacao": "Valor obtido do snippet/titulo de resultado do WebSearch (\"R$ 4.833 Passagens baratas de Sao Paulo para Cidade de Ho Chi Minh (GRU - SGN) | KAYAK\"), nao de cotacao direta/garantida - acesso direto ao site Kayak esta bloqueado pelo proxy deste ambiente. E um preco indicativo generico para a rota GRU-SGN, nao uma cotacao confirmada para as datas/voos especificos do itinerario Emirates monitorado (EK262/EK364 ida, EK371/EK261 volta)."
+  },
+  {
+    "data": "2026-09-20",
+    "preco_brl": 3964.00,
+    "fonte": "Kayak (via snippet de busca)",
+    "observacao": "Valor obtido do snippet de resultado do WebSearch (\"Voos baratos por R$ 3.964 para o Vietna\" saindo de Sao Paulo-Guarulhos, KAYAK), nao de cotacao direta/garantida - acesso direto ao site Kayak esta bloqueado pelo proxy deste ambiente. E um preco indicativo generico de Guarulhos (GRU) para o Vietna (destino principal Cidade de Ho Chi Minh/SGN, rota proxima a GRU-SGN monitorada), nao uma cotacao confirmada para as datas/voos especificos do itinerario Emirates monitorado (EK262/EK364 ida, EK371/EK261 volta). Outros valores tambem vistos nos snippets desta busca: R$ 4.833 e R$ 4.462 (Sao Paulo-Ho Chi Minh, GRU-SGN), R$ 3.416 (Brasil-SGN, origem generica), R$ 3.138 a R$ 3.990 (Sao Paulo-Bangkok/GRU-DXB, trechos proximos); escolhido o menor valor plausivel diretamente atrelado a Guarulhos (GRU)."
   }
 ]

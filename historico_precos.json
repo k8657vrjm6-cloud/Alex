@@ -4,5 +4,11 @@
     "preco_brl": 0.0,
     "fonte": "busca web (Kayak/Skyscanner/Expedia/Emirates - snippets, acesso direto bloqueado)",
     "observacao": "sem dado confiável hoje - acesso direto a Google Flights, Kayak, Skyscanner, Decolar, Trip.com, Momondo e Emirates.com bloqueado pelo proxy de rede deste ambiente; buscas web retornaram apenas valores genéricos/desatualizados, não específicos para o itinerário multi-city Emirates GRU-SGN 03-04/01/2027 e BKK-GRU 23/01/2027. Primeira execução, sem preço anterior no histórico para repetir."
+  },
+  {
+    "data": "2026-09-20",
+    "preco_brl": 4833.00,
+    "fonte": "Kayak (via snippet de busca)",
+    "observacao": "Valor obtido do snippet/titulo de resultado do WebSearch (\"R$ 4.833 Passagens baratas de Sao Paulo para Cidade de Ho Chi Minh (GRU - SGN) | KAYAK\"), nao de cotacao direta/garantida - acesso direto ao site Kayak esta bloqueado pelo proxy deste ambiente. E um preco indicativo generico para a rota GRU-SGN, nao uma cotacao confirmada para as datas/voos especificos do itinerario Emirates monitorado (EK262/EK364 ida, EK371/EK261 volta)."
   }
 ]

@@ -1,0 +1,8 @@
+[
+  {
+    "data": "2026-09-20",
+    "preco_brl": 0.0,
+    "fonte": "busca web (Kayak/Skyscanner/Expedia/Emirates - snippets, acesso direto bloqueado)",
+    "observacao": "sem dado confiável hoje - acesso direto a Google Flights, Kayak, Skyscanner, Decolar, Trip.com, Momondo e Emirates.com bloqueado pelo proxy de rede deste ambiente; buscas web retornaram apenas valores genéricos/desatualizados, não específicos para o itinerário multi-city Emirates GRU-SGN 03-04/01/2027 e BKK-GRU 23/01/2027. Primeira execução, sem preço anterior no histórico para repetir."
+  }
+]

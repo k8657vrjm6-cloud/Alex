@@ -77,5 +77,86 @@
     },
     "fonte": "SerpApi (Google Flights - preco real)",
     "observacao": "Primeiro registro no novo formato com opcao1/opcao2 (nenhum registro anterior com este schema encontrado no historico para comparacao de variacao). Preco obtido combinando best_flights[] (5 opcoes: 12061, 12061, 12361, 12563, 15167) + other_flights[] (6 opcoes entre 14105 e 33421) e ordenando por preco - as duas mais baratas empatam em R$ 12061,00, ambas operadas pela Qatar Airways (nao Emirates - a API nao filtra por companhia aerea/numero de voo, apenas pela rota e datas exatas do itinerario). Nota tecnica importante: cada opcao retornada pela API (campo flights[]) contem apenas os segmentos GRU-DOH-SGN (2 trechos, via Doha) referentes ao primeiro trecho da viagem multi-cidade, junto com um campo departure_token que serviria para consultar o trecho de volta BKK-DOH-GRU em uma chamada adicional; essa chamada adicional nao foi feita nesta execucao (nao especificada no passo a passo da tarefa), entao o preco de R$ 12061,00 corresponde ao preco retornado pela API para a combinacao encontrada e pode nao refletir o custo total ida+volta do roteiro completo. Mesmo criterio ja usado nos dois registros SerpApi anteriores (schema antigo, sem opcao1/opcao2)."
+  },
+  {
+    "data": "2026-09-21",
+    "opcao1": {
+      "preco_brl": 11935.0,
+      "companhia_aerea": "Qatar Airways",
+      "voos": [
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 780",
+          "origem": "GRU",
+          "partida": "2027-01-03 20:25",
+          "destino": "DOH",
+          "chegada": "2027-01-04 15:55"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 970",
+          "origem": "DOH",
+          "partida": "2027-01-05 02:00",
+          "destino": "SGN",
+          "chegada": "2027-01-05 13:05"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 829",
+          "origem": "BKK",
+          "partida": "2027-01-23 03:00",
+          "destino": "DOH",
+          "chegada": "2027-01-23 06:20"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 773",
+          "origem": "DOH",
+          "partida": "2027-01-23 07:50",
+          "destino": "GRU",
+          "chegada": "2027-01-23 16:55"
+        }
+      ]
+    },
+    "opcao2": {
+      "preco_brl": 12061.0,
+      "companhia_aerea": "Qatar Airways",
+      "voos": [
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 774",
+          "origem": "GRU",
+          "partida": "2027-01-03 02:10",
+          "destino": "DOH",
+          "chegada": "2027-01-03 21:40"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 970",
+          "origem": "DOH",
+          "partida": "2027-01-04 02:00",
+          "destino": "SGN",
+          "chegada": "2027-01-04 13:05"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 829",
+          "origem": "BKK",
+          "partida": "2027-01-23 03:00",
+          "destino": "DOH",
+          "chegada": "2027-01-23 06:20"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 773",
+          "origem": "DOH",
+          "partida": "2027-01-23 07:50",
+          "destino": "GRU",
+          "chegada": "2027-01-23 16:55"
+        }
+      ]
+    },
+    "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
+    "observacao": "Preco TOTAL real ida+volta obtido corretamente via fluxo de 2 chamadas: primeira chamada (type=3 multi-city, sem departure_token) retornou 10 candidatos para o trecho 1 (GRU-SGN, 5 em best_flights + 5 em other_flights), os 2 mais baratos (empatados em R$ 12061 no preco PARCIAL do trecho 1) foram levados a uma segunda chamada cada, com departure_token, que retornou as opcoes do trecho 2 (BKK-GRU) e o preco TOTAL real da combinacao completa. Apos a segunda chamada a ordem mudou: a combinacao formada pelo candidato QR780/QR970 (GRU-DOH 03/01 20:25, DOH-SGN 05/01) + retorno QR829/QR773 ficou em R$ 11935,00 (mais barata), superando a combinacao QR774/QR970 (GRU-DOH 03/01 02:10, DOH-SGN 04/01) + mesmo retorno, que fechou em R$ 12061,00. Ambas 100% Qatar Airways (GRU-DOH-SGN / BKK-DOH-GRU); nao ha opcoes Emirates entre as mais baratas para este roteiro exato - a API nao filtra por companhia aerea, apenas pela rota e datas do itinerario monitorado (referencia Emirates EK262/EK364/EK371/EK261). NOTA IMPORTANTE SOBRE COMPARACAO: o registro anterior com opcao1 (SerpApi, 2026-09-20, R$ 12061,00) foi explicitamente marcado como podendo refletir apenas o preco PARCIAL do trecho de ida (GRU-DOH-SGN), pois a chamada com departure_token para obter o preco total ida+volta nao havia sido feita naquela execucao. O preco de hoje (R$ 11935,00) ja e o preco TOTAL correto ida+volta via departure_token. Portanto a variacao abaixo pode refletir principalmente uma mudanca de metodologia (correcao do calculo, agora incluindo o trecho de volta) e nao necessariamente uma variacao real de mercado - o valor de referencia mais confiavel para comparacoes futuras e este registro de hoje."
   }
 ]

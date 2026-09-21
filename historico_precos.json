@@ -7,33 +7,33 @@
   },
   {
     "data": "2026-09-20",
-    "preco_brl": 4833.00,
+    "preco_brl": 4833.0,
     "fonte": "Kayak (via snippet de busca)",
     "observacao": "Valor obtido do snippet/titulo de resultado do WebSearch (\"R$ 4.833 Passagens baratas de Sao Paulo para Cidade de Ho Chi Minh (GRU - SGN) | KAYAK\"), nao de cotacao direta/garantida - acesso direto ao site Kayak esta bloqueado pelo proxy deste ambiente. E um preco indicativo generico para a rota GRU-SGN, nao uma cotacao confirmada para as datas/voos especificos do itinerario Emirates monitorado (EK262/EK364 ida, EK371/EK261 volta)."
   },
   {
     "data": "2026-09-20",
-    "preco_brl": 3964.00,
+    "preco_brl": 3964.0,
     "fonte": "Kayak (via snippet de busca)",
     "observacao": "Valor obtido do snippet de resultado do WebSearch (\"Voos baratos por R$ 3.964 para o Vietna\" saindo de Sao Paulo-Guarulhos, KAYAK), nao de cotacao direta/garantida - acesso direto ao site Kayak esta bloqueado pelo proxy deste ambiente. E um preco indicativo generico de Guarulhos (GRU) para o Vietna (destino principal Cidade de Ho Chi Minh/SGN, rota proxima a GRU-SGN monitorada), nao uma cotacao confirmada para as datas/voos especificos do itinerario Emirates monitorado (EK262/EK364 ida, EK371/EK261 volta). Outros valores tambem vistos nos snippets desta busca: R$ 4.833 e R$ 4.462 (Sao Paulo-Ho Chi Minh, GRU-SGN), R$ 3.416 (Brasil-SGN, origem generica), R$ 3.138 a R$ 3.990 (Sao Paulo-Bangkok/GRU-DXB, trechos proximos); escolhido o menor valor plausivel diretamente atrelado a Guarulhos (GRU)."
   },
   {
     "data": "2026-09-20",
-    "preco_brl": 3138.00,
+    "preco_brl": 3138.0,
     "fonte": "Kayak (via snippet de busca)",
     "url": "https://www.kayak.com.br/voos/Sao-Paulo-SAO/Bangkok-Suvarnabhumi-e-outros-aeroportos-BKK",
     "observacao": "Valor obtido do snippet de resultado do WebSearch (\"R$ 3.138 Passagens baratas de Sao Paulo para Bangkok (SAO - BKK) | KAYAK\"), NAO e cotacao confirmada do roteiro exato monitorado (multi-city Emirates GRU-DXB-SGN ida 03-04/01/2027, BKK-DXB-GRU volta 23/01/2027) - e um valor generico de snippet de busca para a rota Sao Paulo-Bangkok (provavelmente tarifa mais barata generica multi-companhia, possivelmente so ida), usado como proxy por ser o menor valor plausivel em BRL encontrado nas buscas de hoje, dentre as rotas proximas monitoradas (GRU-SGN, GRU-Vietna, GRU-Tailandia/BKK, GRU-DXB). Outros valores vistos nos snippets desta execucao: R$ 3.393 a R$ 4.502 (Brasil-Vietna, Kayak/Mundi/momondo), R$ 3.964 a R$ 4.833 (GRU-SGN/GRU-Vietna, Kayak/Skyscanner), R$ 3.857 (GRU-BKK, Mundi), R$ 3.990 (GRU-DXB especificamente rotulado Emirates, Mundi), R$ 4.598 (GRU-DXB, Decolar), R$ 8.574 (SGN-GRU, Kayak). Confira o preco real clicando na URL."
   },
   {
     "data": "2026-09-20",
-    "preco_brl": 3138.00,
+    "preco_brl": 3138.0,
     "fonte": "Kayak (via snippet de busca)",
     "url": "https://www.kayak.com.br/voos/Sao-Paulo-SAO/Bangkok-Suvarnabhumi-e-outros-aeroportos-BKK",
     "observacao": "Valor obtido do snippet de resultado do WebSearch (\"R$ 3.138 Passagens baratas de Sao Paulo para Bangkok (SAO - BKK) | KAYAK\"), o mesmo valor ja visto na execucao anterior de hoje. NAO e cotacao confirmada do roteiro exato monitorado (multi-city Emirates GRU-DXB-SGN ida 03-04/01/2027, BKK-DXB-GRU volta 23/01/2027) - e um valor generico de snippet de busca para a rota Sao Paulo-Bangkok, usado como proxy por ser o menor valor plausivel em BRL encontrado nas buscas de hoje. Outros valores vistos nos snippets desta execucao: R$ 3.416 (Kayak, Brasil-SGN), R$ 3.506 e R$ 3.631 (Kayak, GRU/SAO-Bangkok), R$ 3.964 (Kayak, GRU-Vietna), R$ 4.462 (Skyscanner, GRU-SGN), R$ 4.833 (Kayak, GRU-SGN), R$ 3.990 (Mundi, GRU-DXB rotulado Emirates), R$ 6.654 a R$ 8.650 (Decolar/outros, GRU-Bangkok, valores mais altos). Confira o preco real clicando na URL ou no link fixo do Kayak no e-mail."
   },
   {
     "data": "2026-09-20",
-    "preco_brl": 3506.00,
+    "preco_brl": 3506.0,
     "fonte": "Kayak (via snippet de busca)",
     "url": "https://www.kayak.com.br/voos/Sao-Paulo-Guarulhos-GRU/Bangkok-TH1",
     "observacao": "Valor obtido do snippet de resultado do WebSearch (\"R$ 3.506 Passagens baratas de Sao Paulo para Bangkok | KAYAK\"), NAO e cotacao confirmada do roteiro exato monitorado (multi-city Emirates GRU-DXB-SGN ida 03-04/01/2027, BKK-DXB-GRU volta 23/01/2027) - e um valor generico de snippet de busca para a rota Sao Paulo-Bangkok (possivelmente outras datas/companhias), usado como proxy por ser o menor valor plausivel em BRL encontrado nas buscas de hoje entre as rotas proximas monitoradas. Achado notavel desta execucao: um snippet do WebSearch descreveu especificamente um voo Emirates GRU->SGN partindo as 01:30 e chegando as 13:55 (horarios que batem exatamente com os voos EK262/EK364 do itinerario monitorado) com preco de R$ 8.700 - este pode ser o valor mais proximo do real, mas nao foi possivel confirmar diretamente (acesso a Emirates.com bloqueado) nem se e ida ou ida+volta, por isso nao foi escolhido como valor principal do registro. Outros valores vistos nos snippets desta execucao: R$ 4.598 (Decolar, GRU-DXB), R$ 4.833 (Kayak, GRU-SGN), R$ 8.574 (Kayak, SGN-GRU), R$ 4.462 (GRU-SGN one-way, varias cias), R$ 7.482 (GRU-SGN ida e volta, ANA/United), R$ 4.026 (Kayak, GRU-Bangkok, dominio .com), R$ 6.654 (Decolar, GRU-Bangkok), R$ 6.438 (media geral GRU-Bangkok), R$ 6.100-7.900 (faixa GRU-Bangkok em marco). Confira o preco real clicando no link fixo do Kayak no e-mail."
@@ -46,13 +46,13 @@
   },
   {
     "data": "2026-09-20",
-    "preco_brl": 12061.00,
+    "preco_brl": 12061.0,
     "fonte": "SerpApi (Google Flights - preco real)",
     "observacao": "Primeiro preco real obtido com sucesso via API SerpApi (Google Flights, type=3 multi-city) para o roteiro GRU-SGN 03/01/2027 e BKK-GRU 23/01/2027, moeda BRL. Menor preco encontrado em best_flights[] (5 opcoes: 12061, 12061, 12361, 12563, 15167; other_flights[] com 6 opcoes entre 14105 e 33421). O voo mais barato retornado pelo Google Flights para este roteiro exato e operado pela Qatar Airways (GRU-DOH-SGN / BKK-DOH-GRU), nao pela Emirates - a chamada da API, conforme especificado, nao filtra por companhia aerea, apenas pela rota e datas exatas do itinerario monitorado. Nao havia registro numerico real anterior da API para comparar (a unica tentativa anterior da API falhou por bloqueio de rede); este e o primeiro ponto de referencia real da serie."
   },
   {
     "data": "2026-09-20",
-    "preco_brl": 12061.00,
+    "preco_brl": 12061.0,
     "companhia_aerea": "Qatar Airways",
     "fonte": "SerpApi (Google Flights - preco real)",
     "observacao": "Nova execucao no mesmo dia via API SerpApi (Google Flights, type=3 multi-city) para o roteiro GRU-SGN 03/01/2027 e BKK-GRU 23/01/2027, moeda BRL. Preco identico ao registro SerpApi anterior de hoje (R$ 12061,00, sem variacao) - mesma opcao mais barata em best_flights[] (5 opcoes: 12061, 12061, 12361, 12563, 15167; other_flights[] com 6 opcoes entre 14105 e 33421), operada pela Qatar Airways (GRU-DOH-SGN / BKK-DOH-GRU). Ha opcoes envolvendo Emirates entre as mais caras (ex.: R$ 16270 com Gol GRU-GIG + Emirates GIG-DXB-SGN), mas nenhuma corresponde exatamente aos voos EK262/EK364/EK371/EK261 do itinerario especifico monitorado - a API, conforme especificado na tarefa, nao filtra por companhia aerea nem por numero de voo, apenas pela rota e datas exatas."
@@ -60,19 +60,47 @@
   {
     "data": "2026-09-20",
     "opcao1": {
-      "preco_brl": 12061.00,
+      "preco_brl": 12061.0,
       "companhia_aerea": "Qatar Airways",
       "voos": [
-        {"companhia": "Qatar Airways", "numero_voo": "QR 774", "origem": "GRU", "partida": "2027-01-03 02:10", "destino": "DOH", "chegada": "2027-01-03 21:40"},
-        {"companhia": "Qatar Airways", "numero_voo": "QR 970", "origem": "DOH", "partida": "2027-01-04 02:00", "destino": "SGN", "chegada": "2027-01-04 13:05"}
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 774",
+          "origem": "GRU",
+          "partida": "2027-01-03 02:10",
+          "destino": "DOH",
+          "chegada": "2027-01-03 21:40"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 970",
+          "origem": "DOH",
+          "partida": "2027-01-04 02:00",
+          "destino": "SGN",
+          "chegada": "2027-01-04 13:05"
+        }
       ]
     },
     "opcao2": {
-      "preco_brl": 12061.00,
+      "preco_brl": 12061.0,
       "companhia_aerea": "Qatar Airways",
       "voos": [
-        {"companhia": "Qatar Airways", "numero_voo": "QR 780", "origem": "GRU", "partida": "2027-01-03 20:25", "destino": "DOH", "chegada": "2027-01-04 15:55"},
-        {"companhia": "Qatar Airways", "numero_voo": "QR 970", "origem": "DOH", "partida": "2027-01-05 02:00", "destino": "SGN", "chegada": "2027-01-05 13:05"}
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 780",
+          "origem": "GRU",
+          "partida": "2027-01-03 20:25",
+          "destino": "DOH",
+          "chegada": "2027-01-04 15:55"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 970",
+          "origem": "DOH",
+          "partida": "2027-01-05 02:00",
+          "destino": "SGN",
+          "chegada": "2027-01-05 13:05"
+        }
       ]
     },
     "fonte": "SerpApi (Google Flights - preco real)",
@@ -158,5 +186,171 @@
     },
     "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
     "observacao": "Preco TOTAL real ida+volta obtido corretamente via fluxo de 2 chamadas: primeira chamada (type=3 multi-city, sem departure_token) retornou 10 candidatos para o trecho 1 (GRU-SGN, 5 em best_flights + 5 em other_flights), os 2 mais baratos (empatados em R$ 12061 no preco PARCIAL do trecho 1) foram levados a uma segunda chamada cada, com departure_token, que retornou as opcoes do trecho 2 (BKK-GRU) e o preco TOTAL real da combinacao completa. Apos a segunda chamada a ordem mudou: a combinacao formada pelo candidato QR780/QR970 (GRU-DOH 03/01 20:25, DOH-SGN 05/01) + retorno QR829/QR773 ficou em R$ 11935,00 (mais barata), superando a combinacao QR774/QR970 (GRU-DOH 03/01 02:10, DOH-SGN 04/01) + mesmo retorno, que fechou em R$ 12061,00. Ambas 100% Qatar Airways (GRU-DOH-SGN / BKK-DOH-GRU); nao ha opcoes Emirates entre as mais baratas para este roteiro exato - a API nao filtra por companhia aerea, apenas pela rota e datas do itinerario monitorado (referencia Emirates EK262/EK364/EK371/EK261). NOTA IMPORTANTE SOBRE COMPARACAO: o registro anterior com opcao1 (SerpApi, 2026-09-20, R$ 12061,00) foi explicitamente marcado como podendo refletir apenas o preco PARCIAL do trecho de ida (GRU-DOH-SGN), pois a chamada com departure_token para obter o preco total ida+volta nao havia sido feita naquela execucao. O preco de hoje (R$ 11935,00) ja e o preco TOTAL correto ida+volta via departure_token. Portanto a variacao abaixo pode refletir principalmente uma mudanca de metodologia (correcao do calculo, agora incluindo o trecho de volta) e nao necessariamente uma variacao real de mercado - o valor de referencia mais confiavel para comparacoes futuras e este registro de hoje."
+  },
+  {
+    "data": "2026-09-21",
+    "consulta": "A",
+    "data_ida": "2027-01-03",
+    "opcao1": {
+      "preco_brl": 11935,
+      "companhia_aerea": "Qatar Airways",
+      "voos": [
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 780",
+          "origem": "GRU",
+          "partida": "2027-01-03 20:25",
+          "destino": "DOH",
+          "chegada": "2027-01-04 15:55"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 970",
+          "origem": "DOH",
+          "partida": "2027-01-05 02:00",
+          "destino": "SGN",
+          "chegada": "2027-01-05 13:05"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 829",
+          "origem": "BKK",
+          "partida": "2027-01-23 03:00",
+          "destino": "DOH",
+          "chegada": "2027-01-23 06:20"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 773",
+          "origem": "DOH",
+          "partida": "2027-01-23 07:50",
+          "destino": "GRU",
+          "chegada": "2027-01-23 16:55"
+        }
+      ]
+    },
+    "opcao2": {
+      "preco_brl": 12061,
+      "companhia_aerea": "Qatar Airways",
+      "voos": [
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 774",
+          "origem": "GRU",
+          "partida": "2027-01-03 02:10",
+          "destino": "DOH",
+          "chegada": "2027-01-03 21:40"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 970",
+          "origem": "DOH",
+          "partida": "2027-01-04 02:00",
+          "destino": "SGN",
+          "chegada": "2027-01-04 13:05"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 829",
+          "origem": "BKK",
+          "partida": "2027-01-23 03:00",
+          "destino": "DOH",
+          "chegada": "2027-01-23 06:20"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 773",
+          "origem": "DOH",
+          "partida": "2027-01-23 07:50",
+          "destino": "GRU",
+          "chegada": "2027-01-23 16:55"
+        }
+      ]
+    },
+    "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
+    "observacao": "Preco TOTAL real ida+volta obtido via fluxo de 2 chamadas SerpApi (type=3 multi-city + departure_token) para GRU-SGN ida 03/01/2027 e BKK-GRU volta 23/01/2027, moeda BRL. Todas as opcoes retornadas sao operadas por Qatar Airways (GRU-DOH-SGN / BKK-DOH-GRU) - nao ha opcoes Emirates entre as mais baratas para este roteiro exato; a API nao filtra por companhia aerea, apenas por rota e datas do itinerario monitorado (referencia Emirates EK262/EK364/EK371/EK261). Comparado ao ultimo registro salvo da consulta A (2026-09-21, R$ 11935.00): sem variacao."
+  },
+  {
+    "data": "2026-09-21",
+    "consulta": "B",
+    "data_ida": "2027-01-02",
+    "opcao1": {
+      "preco_brl": 12061,
+      "companhia_aerea": "Qatar Airways",
+      "voos": [
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 774",
+          "origem": "GRU",
+          "partida": "2027-01-02 02:10",
+          "destino": "DOH",
+          "chegada": "2027-01-02 21:40"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 970",
+          "origem": "DOH",
+          "partida": "2027-01-03 02:00",
+          "destino": "SGN",
+          "chegada": "2027-01-03 13:05"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 829",
+          "origem": "BKK",
+          "partida": "2027-01-23 03:00",
+          "destino": "DOH",
+          "chegada": "2027-01-23 06:20"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 773",
+          "origem": "DOH",
+          "partida": "2027-01-23 07:50",
+          "destino": "GRU",
+          "chegada": "2027-01-23 16:55"
+        }
+      ]
+    },
+    "opcao2": {
+      "preco_brl": 14743,
+      "companhia_aerea": "Qatar Airways + Turkish Airlines",
+      "voos": [
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 786",
+          "origem": "GRU",
+          "partida": "2027-01-02 11:00",
+          "destino": "DOH",
+          "chegada": "2027-01-03 06:30"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 974",
+          "origem": "DOH",
+          "partida": "2027-01-03 20:10",
+          "destino": "SGN",
+          "chegada": "2027-01-04 07:15"
+        },
+        {
+          "companhia": "Turkish Airlines",
+          "numero_voo": "TK 59",
+          "origem": "BKK",
+          "partida": "2027-01-23 05:55",
+          "destino": "IST",
+          "chegada": "2027-01-23 12:35"
+        },
+        {
+          "companhia": "Turkish Airlines",
+          "numero_voo": "TK 215",
+          "origem": "IST",
+          "partida": "2027-01-23 20:35",
+          "destino": "GRU",
+          "chegada": "2027-01-24 04:20"
+        }
+      ]
+    },
+    "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
+    "observacao": "Preco TOTAL real ida+volta obtido via fluxo de 2 chamadas SerpApi (type=3 multi-city + departure_token) para GRU-SGN ida 02/01/2027 e BKK-GRU volta 23/01/2027, moeda BRL. Primeiro registro real desta consulta (ida 02/01/2027) - sem historico anterior para comparar (variacao = primeiro registro real)."
   }
 ]

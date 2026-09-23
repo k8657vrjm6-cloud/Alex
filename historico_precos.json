@@ -481,5 +481,134 @@
     "opcao2": null,
     "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
     "observacao": "Preco anterior (2026-09-21) R$ 12061; variacao de +R$ 9060 (+75.12%). Aumento expressivo: nesta consulta B so a opcao1 (candidato mais barato do trecho de ida) e buscada, e hoje o candidato selecionado envolveu conexao com longa espera em Doha (GRU 02/01 11:00 -> DOH 03/01 06:30, seguindo para SGN somente em 04/01), resultando em preco total bem mais alto. Nao e uma mudanca de metodologia, mas o candidato mais barato do trecho 1 mudou de um dia para o outro."
+  },
+  {
+    "data": "2026-09-23",
+    "consulta": "A",
+    "data_ida": "2027-01-03",
+    "opcao1": {
+      "preco_brl": 12263.0,
+      "companhia_aerea": "Emirates",
+      "voos": [
+        {
+          "companhia": "Emirates",
+          "numero_voo": "EK 262",
+          "origem": "GRU",
+          "partida": "2027-01-03 01:30",
+          "destino": "DXB",
+          "chegada": "2027-01-03 22:35"
+        },
+        {
+          "companhia": "Emirates",
+          "numero_voo": "EK 364",
+          "origem": "DXB",
+          "partida": "2027-01-04 04:00",
+          "destino": "SGN",
+          "chegada": "2027-01-04 13:55"
+        },
+        {
+          "companhia": "Emirates",
+          "numero_voo": "EK 371",
+          "origem": "BKK",
+          "partida": "2027-01-23 02:55",
+          "destino": "DXB",
+          "chegada": "2027-01-23 06:40"
+        },
+        {
+          "companhia": "Emirates",
+          "numero_voo": "EK 261",
+          "origem": "DXB",
+          "partida": "2027-01-23 09:05",
+          "destino": "GRU",
+          "chegada": "2027-01-23 17:35"
+        }
+      ]
+    },
+    "opcao2": {
+      "preco_brl": 14122.0,
+      "companhia_aerea": "Qatar Airways",
+      "voos": [
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 780",
+          "origem": "GRU",
+          "partida": "2027-01-03 20:25",
+          "destino": "DOH",
+          "chegada": "2027-01-04 15:55"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 970",
+          "origem": "DOH",
+          "partida": "2027-01-05 02:00",
+          "destino": "SGN",
+          "chegada": "2027-01-05 13:05"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 835",
+          "origem": "BKK",
+          "partida": "2027-01-23 18:55",
+          "destino": "DOH",
+          "chegada": "2027-01-23 22:15"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 773",
+          "origem": "DOH",
+          "partida": "2027-01-24 07:50",
+          "destino": "GRU",
+          "chegada": "2027-01-24 16:55"
+        }
+      ]
+    },
+    "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
+    "observacao": "Preco TOTAL real ida+volta obtido via fluxo de 2 chamadas SerpApi (type=3 multi-city + departure_token) para GRU-SGN ida 03/01/2027 e BKK-GRU volta 23/01/2027, moeda BRL. Hoje a opcao1 mais barata coincide com o roteiro de referencia Emirates (EK262/EK364/EK371/EK261). Comparado ao ultimo registro salvo da consulta A (2026-09-22, R$ 11961.00): variacao de +R$ 302.00 (+2.52%)."
+  },
+  {
+    "data": "2026-09-23",
+    "consulta": "B",
+    "data_ida": "2027-01-02",
+    "opcao1": {
+      "preco_brl": 21134.0,
+      "companhia_aerea": "Qatar Airways",
+      "voos": [
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 786",
+          "origem": "GRU",
+          "partida": "2027-01-02 11:00",
+          "destino": "DOH",
+          "chegada": "2027-01-03 06:30"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 970",
+          "origem": "DOH",
+          "partida": "2027-01-04 02:00",
+          "destino": "SGN",
+          "chegada": "2027-01-04 13:05"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 835",
+          "origem": "BKK",
+          "partida": "2027-01-23 18:55",
+          "destino": "DOH",
+          "chegada": "2027-01-23 22:15"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 773",
+          "origem": "DOH",
+          "partida": "2027-01-24 07:50",
+          "destino": "GRU",
+          "chegada": "2027-01-24 16:55"
+        }
+      ]
+    },
+    "opcao2": null,
+    "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
+    "observacao": "Preco TOTAL real ida+volta obtido via fluxo de 2 chamadas SerpApi (type=3 multi-city + departure_token) para GRU-SGN ida 02/01/2027 e BKK-GRU volta 23/01/2027, moeda BRL. Comparado ao ultimo registro salvo da consulta B (2026-09-22, R$ 21121.00): variacao de +R$ 13.00 (+0.06%), praticamente estavel."
   }
 ]

@@ -3403,5 +3403,225 @@
     "opcao2": null,
     "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
     "observacao": "preco comparado ao registro anterior de 2026-10-05 (R$ 14075.00)"
+  },
+  {
+    "data": "2026-10-07",
+    "consulta": "A",
+    "data_ida": "2027-01-03",
+    "rota": "GRU-SGN/BKK-GRU",
+    "opcao1": {
+      "preco_brl": 12261.0,
+      "companhia_aerea": "Emirates",
+      "voos": [
+        {
+          "companhia": "Emirates",
+          "numero_voo": "EK 262",
+          "origem": "GRU",
+          "partida": "2027-01-03 01:30",
+          "destino": "DXB",
+          "chegada": "2027-01-03 22:35"
+        },
+        {
+          "companhia": "Emirates",
+          "numero_voo": "EK 364",
+          "origem": "DXB",
+          "partida": "2027-01-04 04:00",
+          "destino": "SGN",
+          "chegada": "2027-01-04 13:55"
+        },
+        {
+          "companhia": "Emirates",
+          "numero_voo": "EK 371",
+          "origem": "BKK",
+          "partida": "2027-01-23 02:55",
+          "destino": "DXB",
+          "chegada": "2027-01-23 06:40"
+        },
+        {
+          "companhia": "Emirates",
+          "numero_voo": "EK 261",
+          "origem": "DXB",
+          "partida": "2027-01-23 09:05",
+          "destino": "GRU",
+          "chegada": "2027-01-23 17:35"
+        }
+      ]
+    },
+    "opcao2": null,
+    "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
+    "observacao": "preco comparado ao registro anterior de 2026-10-06 (R$ 11967.00) - variacao +R$ 294.00 (+2.46%)"
+  },
+  {
+    "data": "2026-10-07",
+    "consulta": "B",
+    "data_ida": "2027-01-02",
+    "rota": "GRU-SGN/BKK-GRU",
+    "opcao1": {
+      "preco_brl": 11913.0,
+      "companhia_aerea": "Emirates",
+      "voos": [
+        {
+          "companhia": "Emirates",
+          "numero_voo": "EK 262",
+          "origem": "GRU",
+          "partida": "2027-01-02 01:30",
+          "destino": "DXB",
+          "chegada": "2027-01-02 22:35"
+        },
+        {
+          "companhia": "Emirates",
+          "numero_voo": "EK 392",
+          "origem": "DXB",
+          "partida": "2027-01-03 09:35",
+          "destino": "SGN",
+          "chegada": "2027-01-03 19:35"
+        },
+        {
+          "companhia": "Emirates",
+          "numero_voo": "EK 371",
+          "origem": "BKK",
+          "partida": "2027-01-23 02:55",
+          "destino": "DXB",
+          "chegada": "2027-01-23 06:40"
+        },
+        {
+          "companhia": "Emirates",
+          "numero_voo": "EK 261",
+          "origem": "DXB",
+          "partida": "2027-01-23 09:05",
+          "destino": "GRU",
+          "chegada": "2027-01-23 17:35"
+        }
+      ]
+    },
+    "opcao2": null,
+    "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
+    "observacao": "preco comparado ao registro anterior de 2026-10-06 (R$ 11967.00) - variacao -R$ 54.00 (-0.45%)"
+  },
+  {
+    "data": "2026-10-07",
+    "consulta": "C",
+    "data_ida": "2027-01-02",
+    "rota": "GRU-BKK/SGN-GRU",
+    "opcao1": {
+      "preco_brl": 13608.0,
+      "companhia_aerea": "Qatar Airways + Malaysia Airlines + Ethiopian",
+      "voos": [
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 774",
+          "origem": "GRU",
+          "partida": "2027-01-02 02:10",
+          "destino": "DOH",
+          "chegada": "2027-01-02 21:40"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 832",
+          "origem": "DOH",
+          "partida": "2027-01-03 08:35",
+          "destino": "BKK",
+          "chegada": "2027-01-03 18:50"
+        },
+        {
+          "companhia": "Malaysia Airlines",
+          "numero_voo": "MH 767",
+          "origem": "SGN",
+          "partida": "2027-01-23 19:00",
+          "destino": "KUL",
+          "chegada": "2027-01-23 22:00"
+        },
+        {
+          "companhia": "Ethiopian",
+          "numero_voo": "ET 639",
+          "origem": "KUL",
+          "partida": "2027-01-23 23:05",
+          "destino": "SIN",
+          "chegada": "2027-01-24 00:25"
+        },
+        {
+          "companhia": "Ethiopian",
+          "numero_voo": "ET 639",
+          "origem": "SIN",
+          "partida": "2027-01-24 02:00",
+          "destino": "ADD",
+          "chegada": "2027-01-24 06:05"
+        },
+        {
+          "companhia": "Ethiopian",
+          "numero_voo": "ET 506",
+          "origem": "ADD",
+          "partida": "2027-01-24 09:40",
+          "destino": "GRU",
+          "chegada": "2027-01-24 16:00"
+        }
+      ]
+    },
+    "opcao2": null,
+    "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
+    "observacao": "preco comparado ao registro anterior de 2026-10-06 (R$ 11917.00) - variacao +R$ 1691.00 (+14.19%)"
+  },
+  {
+    "data": "2026-10-07",
+    "consulta": "D",
+    "data_ida": "2027-01-03",
+    "rota": "GRU-BKK/SGN-GRU",
+    "opcao1": {
+      "preco_brl": 13422.0,
+      "companhia_aerea": "Qatar Airways + Malaysia Airlines + Ethiopian",
+      "voos": [
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 780",
+          "origem": "GRU",
+          "partida": "2027-01-03 20:25",
+          "destino": "DOH",
+          "chegada": "2027-01-04 15:55"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 832",
+          "origem": "DOH",
+          "partida": "2027-01-05 08:35",
+          "destino": "BKK",
+          "chegada": "2027-01-05 18:50"
+        },
+        {
+          "companhia": "Malaysia Airlines",
+          "numero_voo": "MH 767",
+          "origem": "SGN",
+          "partida": "2027-01-23 19:00",
+          "destino": "KUL",
+          "chegada": "2027-01-23 22:00"
+        },
+        {
+          "companhia": "Ethiopian",
+          "numero_voo": "ET 639",
+          "origem": "KUL",
+          "partida": "2027-01-23 23:05",
+          "destino": "SIN",
+          "chegada": "2027-01-24 00:25"
+        },
+        {
+          "companhia": "Ethiopian",
+          "numero_voo": "ET 639",
+          "origem": "SIN",
+          "partida": "2027-01-24 02:00",
+          "destino": "ADD",
+          "chegada": "2027-01-24 06:05"
+        },
+        {
+          "companhia": "Ethiopian",
+          "numero_voo": "ET 506",
+          "origem": "ADD",
+          "partida": "2027-01-24 09:40",
+          "destino": "GRU",
+          "chegada": "2027-01-24 16:00"
+        }
+      ]
+    },
+    "opcao2": null,
+    "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
+    "observacao": "preco comparado ao registro anterior de 2026-10-06 (R$ 13464.00) - variacao -R$ 42.00 (-0.31%)"
   }
 ]

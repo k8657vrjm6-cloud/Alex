@@ -5779,5 +5779,64 @@
     "opcao2": null,
     "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
     "observacao": ""
+  },
+  {
+    "data": "2026-10-18",
+    "consulta": "A",
+    "data_ida": "2027-01-30",
+    "data_volta": "2027-02-20",
+    "rota": "GRU-SGN/BKK-GRU",
+    "opcao1": {
+      "preco_brl": 10400,
+      "companhia_aerea": "Qatar Airways",
+      "voos": [
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 780",
+          "origem": "GRU",
+          "partida": "2027-01-30 20:25",
+          "destino": "DOH",
+          "chegada": "2027-01-31 15:55"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 970",
+          "origem": "DOH",
+          "partida": "2027-02-01 02:00",
+          "destino": "SGN",
+          "chegada": "2027-02-01 13:05"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 831",
+          "origem": "BKK",
+          "partida": "2027-02-20 08:15",
+          "destino": "DOH",
+          "chegada": "2027-02-20 11:35"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 773",
+          "origem": "DOH",
+          "partida": "2027-02-21 07:50",
+          "destino": "GRU",
+          "chegada": "2027-02-21 16:55"
+        }
+      ]
+    },
+    "opcao2": null,
+    "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
+    "observacao": "primeiro registro real (novas datas 30/01 a 20/02/2027; historico anterior era de outras datas)"
+  },
+  {
+    "data": "2026-10-18",
+    "consulta": "B",
+    "data_ida": "2027-01-30",
+    "data_volta": "2027-02-20",
+    "rota": "GRU-BKK/SGN-GRU",
+    "opcao1": null,
+    "opcao2": null,
+    "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
+    "observacao": "sem dado disponivel - falha na API SerpApi na segunda chamada (departure_token): Google Flights hasnt returned any results for this query."
   }
 ]

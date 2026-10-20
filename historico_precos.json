@@ -5950,5 +5950,117 @@
     "opcao2": null,
     "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
     "observacao": "primeiro registro real (novas datas 30/01 a 20/02/2027; historico anterior era de outras datas)"
+  },
+  {
+    "data": "2026-10-20",
+    "consulta": "A",
+    "data_ida": "2027-01-30",
+    "data_volta": "2027-02-20",
+    "rota": "GRU-SGN/BKK-GRU",
+    "opcao1": {
+      "preco_brl": 10611,
+      "companhia_aerea": "Qatar Airways",
+      "voos": [
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 780",
+          "origem": "GRU",
+          "partida": "2027-01-30 20:25",
+          "destino": "DOH",
+          "chegada": "2027-01-31 15:55"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 974",
+          "origem": "DOH",
+          "partida": "2027-01-31 20:10",
+          "destino": "SGN",
+          "chegada": "2027-02-01 07:15"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 831",
+          "origem": "BKK",
+          "partida": "2027-02-20 08:15",
+          "destino": "DOH",
+          "chegada": "2027-02-20 11:35"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 773",
+          "origem": "DOH",
+          "partida": "2027-02-21 07:50",
+          "destino": "GRU",
+          "chegada": "2027-02-21 16:55"
+        }
+      ]
+    },
+    "opcao2": null,
+    "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
+    "observacao": "comparado com registro de 2026-10-19 (R$ 10659): variacao -R$ 48 (-0.5%)"
+  },
+  {
+    "data": "2026-10-20",
+    "consulta": "B",
+    "data_ida": "2027-01-30",
+    "data_volta": "2027-02-20",
+    "rota": "GRU-BKK/SGN-GRU",
+    "opcao1": {
+      "preco_brl": 8418,
+      "companhia_aerea": "United + ANA",
+      "voos": [
+        {
+          "companhia": "United",
+          "numero_voo": "UA 63",
+          "origem": "GRU",
+          "partida": "2027-01-30 22:15",
+          "destino": "IAH",
+          "chegada": "2027-01-31 05:25"
+        },
+        {
+          "companhia": "United",
+          "numero_voo": "UA 7",
+          "origem": "IAH",
+          "partida": "2027-01-31 10:25",
+          "destino": "NRT",
+          "chegada": "2027-02-01 15:30"
+        },
+        {
+          "companhia": "ANA",
+          "numero_voo": "NH 807",
+          "origem": "NRT",
+          "partida": "2027-02-01 17:30",
+          "destino": "BKK",
+          "chegada": "2027-02-01 22:50"
+        },
+        {
+          "companhia": "ANA",
+          "numero_voo": "NH 834",
+          "origem": "SGN",
+          "partida": "2027-02-20 07:30",
+          "destino": "NRT",
+          "chegada": "2027-02-20 15:10"
+        },
+        {
+          "companhia": "United",
+          "numero_voo": "UA 868",
+          "origem": "NRT",
+          "partida": "2027-02-20 18:00",
+          "destino": "ORD",
+          "chegada": "2027-02-20 14:50"
+        },
+        {
+          "companhia": "United",
+          "numero_voo": "UA 845",
+          "origem": "ORD",
+          "partida": "2027-02-20 17:50",
+          "destino": "GRU",
+          "chegada": "2027-02-21 07:15"
+        }
+      ]
+    },
+    "opcao2": null,
+    "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
+    "observacao": "comparado com registro de 2026-10-19 (R$ 8460): variacao -R$ 42 (-0.5%)"
   }
 ]

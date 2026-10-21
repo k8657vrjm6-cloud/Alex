@@ -6062,5 +6062,101 @@
     "opcao2": null,
     "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
     "observacao": "comparado com registro de 2026-10-19 (R$ 8460): variacao -R$ 42 (-0.5%)"
+  },
+  {
+    "data": "2026-10-21",
+    "consulta": "A",
+    "data_ida": "2027-01-30",
+    "data_volta": "2027-02-20",
+    "rota": "GRU-SGN/BKK-GRU",
+    "opcao1": {
+      "preco_brl": 10511,
+      "companhia_aerea": "Qatar Airways",
+      "voos": [
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 780",
+          "origem": "GRU",
+          "partida": "2027-01-30 20:25",
+          "destino": "DOH",
+          "chegada": "2027-01-31 15:55"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 970",
+          "origem": "DOH",
+          "partida": "2027-02-01 02:00",
+          "destino": "SGN",
+          "chegada": "2027-02-01 13:05"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 829",
+          "origem": "BKK",
+          "partida": "2027-02-20 03:00",
+          "destino": "DOH",
+          "chegada": "2027-02-20 06:20"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 773",
+          "origem": "DOH",
+          "partida": "2027-02-20 07:50",
+          "destino": "GRU",
+          "chegada": "2027-02-20 16:55"
+        }
+      ]
+    },
+    "opcao2": null,
+    "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
+    "observacao": "comparado com registro de 2026-10-20 (R$ 10611): variacao -R$ 100 (-0.94%)"
+  },
+  {
+    "data": "2026-10-21",
+    "consulta": "B",
+    "data_ida": "2027-01-30",
+    "data_volta": "2027-02-20",
+    "rota": "GRU-BKK/SGN-GRU",
+    "opcao1": {
+      "preco_brl": 8946,
+      "companhia_aerea": "Qatar Airways",
+      "voos": [
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 780",
+          "origem": "GRU",
+          "partida": "2027-01-30 20:25",
+          "destino": "DOH",
+          "chegada": "2027-01-31 15:55"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 832",
+          "origem": "DOH",
+          "partida": "2027-02-01 08:35",
+          "destino": "BKK",
+          "chegada": "2027-02-01 18:50"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 971",
+          "origem": "SGN",
+          "partida": "2027-02-20 19:40",
+          "destino": "DOH",
+          "chegada": "2027-02-20 23:40"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 773",
+          "origem": "DOH",
+          "partida": "2027-02-21 07:50",
+          "destino": "GRU",
+          "chegada": "2027-02-21 16:55"
+        }
+      ]
+    },
+    "opcao2": null,
+    "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
+    "observacao": "comparado com registro de 2026-10-20 (R$ 8418): variacao +R$ 528 (+6.27%)"
   }
 ]

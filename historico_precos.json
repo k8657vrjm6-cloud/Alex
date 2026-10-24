@@ -6374,5 +6374,125 @@
     "opcao2": null,
     "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
     "observacao": "Preco anterior comparavel (2026-10-22): R$ 8966. Variacao: -R$ 216 (-2.41%)."
+  },
+  {
+    "data": "2026-10-24",
+    "consulta": "A",
+    "data_ida": "2027-01-30",
+    "data_volta": "2027-02-20",
+    "rota": "GRU-SGN/BKK-GRU",
+    "opcao1": {
+      "preco_brl": 11144,
+      "companhia_aerea": "Qatar Airways",
+      "voos": [
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 780",
+          "origem": "GRU",
+          "partida": "2027-01-30 20:25",
+          "destino": "DOH",
+          "chegada": "2027-01-31 15:55"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 970",
+          "origem": "DOH",
+          "partida": "2027-02-01 02:00",
+          "destino": "SGN",
+          "chegada": "2027-02-01 13:05"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 835",
+          "origem": "BKK",
+          "partida": "2027-02-20 18:55",
+          "destino": "DOH",
+          "chegada": "2027-02-20 22:15"
+        },
+        {
+          "companhia": "Qatar Airways",
+          "numero_voo": "QR 773",
+          "origem": "DOH",
+          "partida": "2027-02-21 07:50",
+          "destino": "GRU",
+          "chegada": "2027-02-21 16:55"
+        }
+      ]
+    },
+    "opcao2": null,
+    "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
+    "observacao": "Preco anterior comparavel (2026-10-23): R$ 11145. Variacao: -R$ 1 (-0.01%)."
+  },
+  {
+    "data": "2026-10-24",
+    "consulta": "B",
+    "data_ida": "2027-01-30",
+    "data_volta": "2027-02-20",
+    "rota": "GRU-BKK/SGN-GRU",
+    "opcao1": {
+      "preco_brl": 8665,
+      "companhia_aerea": "American + Etihad + Malaysia Airlines + Ethiopian",
+      "voos": [
+        {
+          "companhia": "American",
+          "numero_voo": "AA 950",
+          "origem": "GRU",
+          "partida": "2027-01-30 23:15",
+          "destino": "JFK",
+          "chegada": "2027-01-31 07:05"
+        },
+        {
+          "companhia": "Etihad",
+          "numero_voo": "EY 2",
+          "origem": "JFK",
+          "partida": "2027-01-31 15:00",
+          "destino": "AUH",
+          "chegada": "2027-02-01 12:30"
+        },
+        {
+          "companhia": "Etihad",
+          "numero_voo": "EY 400",
+          "origem": "AUH",
+          "partida": "2027-02-01 14:20",
+          "destino": "BKK",
+          "chegada": "2027-02-01 23:40"
+        },
+        {
+          "companhia": "Malaysia Airlines",
+          "numero_voo": "MH 767",
+          "origem": "SGN",
+          "partida": "2027-02-20 19:00",
+          "destino": "KUL",
+          "chegada": "2027-02-20 22:00"
+        },
+        {
+          "companhia": "Ethiopian",
+          "numero_voo": "ET 639",
+          "origem": "KUL",
+          "partida": "2027-02-20 23:05",
+          "destino": "SIN",
+          "chegada": "2027-02-21 00:25"
+        },
+        {
+          "companhia": "Ethiopian",
+          "numero_voo": "ET 639",
+          "origem": "SIN",
+          "partida": "2027-02-21 02:00",
+          "destino": "ADD",
+          "chegada": "2027-02-21 06:05"
+        },
+        {
+          "companhia": "Ethiopian",
+          "numero_voo": "ET 506",
+          "origem": "ADD",
+          "partida": "2027-02-21 09:40",
+          "destino": "GRU",
+          "chegada": "2027-02-21 16:00"
+        }
+      ]
+    },
+    "opcao2": null,
+    "fonte": "SerpApi (Google Flights - preco real completo ida+volta)",
+    "observacao": "Preco anterior comparavel (2026-10-23): R$ 8750. Variacao: -R$ 85 (-0.97%)."
   }
 ]
